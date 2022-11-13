@@ -1,0 +1,74 @@
+.container {
+  min-width: 600px;
+  max-width: 700px;
+  border: 1px solid #000;
+  margin-top: 70px;
+}
+
+h1 {
+  color: #ff7f50;
+}
+
+.forecast {
+  text-align: center;
+}
+
+p {
+  font-size: 17px;
+}
+
+.current-city {
+  font-size: 30px;
+}
+
+.current-weather {
+  display: block;
+  font-size: 15px;
+  margin: 0 5px;
+}
+
+.current-temp {
+  font-size: 50px;
+  display: inline;
+}
+
+.unit {
+  display: inline;
+  font-size: 23px;
+  padding-bottom: 20px;
+}
+
+.hiLoLabel {
+  display: inline;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+p.hiLoLabel {
+  display: inline;
+}
+
+.high-temp-current,
+.low-temp-current {
+  font-weight: normal;
+}
+
+.weather-forecast {
+  line-height: 12px;
+  font-size: 10px;
+}
+
+#humidity,
+#wind-unit,
+#precipitation {
+  display: inline;
+}
+/*
+.high-temp {
+  font-weight: 600;
+}
+
+.key-forecast {
+  padding-left: 10px;
+}
+*/
