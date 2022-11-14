@@ -66,6 +66,15 @@ p.hiLoLabel {
 #precipitation {
   display: inline;
 }
+
+.github {
+  color: #ff7f50;
+}
+
+.github:hover {
+  color: #636363;
+}
+
 /*
 .high-temp {
   font-weight: 600;
