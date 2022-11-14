@@ -14,65 +14,64 @@
     />
     <link href="src/styles.css" />
   </head>
-  <div class="container border pt-4">
-    <div class="row m-3 pt-2 pb-5 justify-content-end">
-      <div class="col-7">
-        <form id="city-search">
-          <div class="input-group mb-3">
-            <input
-              type="text"
-              placeholder="City"
-              class="form-control"
-              id="city-input"
-              aria-label="Search"
-            />
-            <button type="submit" class="btn btn-info">Search</button>
+  <div class="container pt-4">
+    <div class="row border">
+      <div class="row m-3 pt-2 pb-5 justify-content-end">
+        <div class="col-7">
+          <form id="city-search">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                placeholder="City"
+                class="form-control"
+                id="city-input"
+                aria-label="Search"
+              />
+              <button type="submit" class="btn btn-info">Search</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-2">
+          <button type="button" class="btn btn-secondary" id="current-location">
+            Current
+          </button>
+        </div>
+
+        <div class="row">
+          <div class="col-12 mt-2 justify-content-start">
+            <h1 class="current-city" id="current-city">Seattle</h1>
           </div>
-        </form>
-      </div>
-      <div class="col-2">
-        <button type="button" class="btn btn-secondary" id="current-location">
-          Current
-        </button>
-      </div>
-
-      <div class="row">
-        <div class="col-12 mt-2 justify-content-start">
-          <h1 class="current-city" id="current-city">
-            Seattle
-          </h1>
-        </div>
-        <div class="col-12 pb-0 mb-0 justify-content-start">
-          <p id="time"></p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-6 pt-3 pr-0 mr-0 justify-content-start temp">
-          <h2 class="current-temp" id="current-temp">
-            23
-          </h2>
-          <p class="unit" id="unit">°F</p>
+          <div class="col-12 pb-0 mb-0 justify-content-start">
+            <p id="time"></p>
+          </div>
         </div>
 
-        <div class="col-4 pt-4 mt-1 weather-forecast">
-          <p class="humidity">Humidity: <span id="humidity">70</span>%</p>
-          <p class="wind">
-            Wind: <span id="wind">9</span> <span id="wind-unit">mph</span>
-          </p>
-        </div>
-      </div>
+        <div class="row">
+          <div class="col-6 pt-3 pr-0 mr-0 justify-content-start temp">
+            <h2 class="current-temp" id="current-temp">23</h2>
+            <p class="unit" id="unit">°F</p>
+          </div>
 
-      <div class="row">
-        <div class="col-12 mb-2 pb-1">
-          <p class="current-weather" id="current-weather">snowfall</p>
+          <div class="col-4 pt-4 mt-1 weather-forecast">
+            <p class="humidity">Humidity: <span id="humidity">70</span>%</p>
+            <p class="wind">
+              Wind: <span id="wind">9</span> <span id="wind-unit">mph</span>
+            </p>
+          </div>
         </div>
-        <div class="col-12 pt-1 mt-0 hiLoLabel">
-          <p>
-            HI
-            <span class="high-temp-current" id="high-temp-current">27°</span> LO
-            <span class="low-temp-current" id="low-temp-current">19°</span>
-          </p>
+
+        <div class="row">
+          <div class="col-12 mb-2 pb-1">
+            <p class="current-weather" id="current-weather">snowfall</p>
+          </div>
+          <div class="col-12 pt-1 mt-0 hiLoLabel">
+            <p>
+              HI
+              <span class="high-temp-current" id="high-temp-current">27°</span>
+              LO
+              <span class="low-temp-current" id="low-temp-current">19°</span>
+            </p>
+          </div>
         </div>
       </div>
     </div>
