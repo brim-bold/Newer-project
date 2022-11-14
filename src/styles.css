@@ -67,11 +67,11 @@ p.hiLoLabel {
   display: inline;
 }
 
-.github {
+.repo {
   color: #ff7f50;
 }
 
-.github:hover {
+.repo:hover {
   color: #636363;
 }
 
