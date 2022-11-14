@@ -53,6 +53,10 @@ p.hiLoLabel {
   font-weight: normal;
 }
 
+.temp{
+  display: inline;
+}
+
 .weather-forecast {
   line-height: 12px;
   font-size: 10px;
